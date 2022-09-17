@@ -6,7 +6,7 @@ while n>0:
     sum+=r
     mul*=r
     n=n//10
-if mul==sum:
+if sum==mul:
     print("Spy Number")
 else:
     print("Not Spy Number")
