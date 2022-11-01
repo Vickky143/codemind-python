@@ -1,7 +1,5 @@
 a,b=map(int,input().split())
-c=max(a,b)
-while True:
-    if c%a==0 and c%b==0:
-        print(c)
+for i in range(1,a*b+1):
+    if i%a==0 and i%b==0:
+        print(i)
         break
-    c+=1
