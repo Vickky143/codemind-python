@@ -8,6 +8,6 @@ while n>0:
         n=sum
         sum=0
 if sum==1 or sum==7:
-    print("True")
+    print('True')
 else:
     print("False")
