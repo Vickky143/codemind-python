@@ -1,6 +1,6 @@
 n=input()
-m=set(n)
-if len(n)==len(m):
-    print('Unique Number')
+b=set(n)
+if len(n)==len(b):
+    print("Unique Number")
 else:
-    print('Not Unique Number')
+    print("Not Unique Number")
