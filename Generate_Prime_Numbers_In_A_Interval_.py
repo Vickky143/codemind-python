@@ -1,18 +1,15 @@
 a=int(input())
 b=int(input())
-k=[]
+lst=[]
 for i in range(a,b+1):
-    v=1
+    prime=True
     for j in range(2,int(i**0.5)+1):
         if i%j==0:
-            v=2
+            prime=False
             break
-    if v==1:
-        k.append(i)
-if 1 in k:
-    k.remove(1)
-    for i in k:
-        print(i)
-else:
-    for i in k:
-        print(i)
+    if prime==True:
+        lst.append(i)
+if 1 in lst:
+    lst.remove(1)
+for ch in lst:
+    print(ch)
